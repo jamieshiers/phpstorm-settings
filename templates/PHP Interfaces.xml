@@ -1,0 +1,15 @@
+<templateSet group="PHP Interfaces">
+  <template name="tm" value="/** &#10;* $DESCRIPTION$&#10;*&#10;*    @test &#10;**/&#10;Public function it_$NAME$(): void&#10;{&#10;    $END$&#10;}" description="Add PHP Unit Test" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="spacesToUnderscores(decapitalize(DESCRIPTION))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Interface Member" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Trait Member" value="false" />
+    </context>
+  </template>
+</templateSet>
