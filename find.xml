@@ -1,8 +1,0 @@
-<application>
-  <component name="FindSettings">
-    <option name="customScope" value="Project 'lighthouse'" />
-    <option name="defaultScopeName" value="Project 'lighthouse'" />
-    <option name="SEARCH_SCOPE" value="Project 'lighthouse'" />
-    <option name="FILE_MASK" value="*.php" />
-  </component>
-</application>
