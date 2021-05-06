@@ -1,5 +1,5 @@
 <templateSet group="Unit Tests">
-  <template name="@unit" value="&#10;/** @test */ &#10;$NAME$&#10;public function $SNAKENAME$()&#10;{&#10;      $END$&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="@unit" value="&#10;/** @test */ &#10;$NAME$&#10;public function $SNAKENAME$()&#10;{&#10;      $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SNAKENAME" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
